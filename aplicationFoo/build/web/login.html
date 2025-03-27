@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Acesso Restrito</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Para acessar, por favor se identifique</div>
+        <div>
+            <form method="post" action="servUsuario">
+                <table>
+                    <tr><td>Login:</td><td><input type="text" name="txtlogin" value="" size="20" /></td></tr>
+                    <tr><td>Senha:</td><td><input type="password" name="txtsenha" value="" size="6" /></td></tr>
+                </table>
+                <table>
+                    <tr>
+                        <td><input type="submit" name="botao" value="Entrar"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <a href='index.html'>Voltar</a>
+    </body>
+</html>
